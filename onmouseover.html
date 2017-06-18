@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="2" src="homero.gif" alt="Homero" width="120" height="120">
+
+<p>La función bigImg () se activa cuando el usuario mueve el puntero del ratón sobre la imagen.</p>
+<p>La función normalImg () se dispara cuando el puntero del ratón se mueve fuera de la imagen.</p>
+
+<script>
+function bigImg(x) {
+    x.style.height = "180px";
+    x.style.width = "180px";
+}
+
+function normalImg(x) {
+    x.style.height = "100px";
+    x.style.width = "100px";
+}
+</script>
+
+</body>
+</html>

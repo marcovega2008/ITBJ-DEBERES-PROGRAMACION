@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+<h1 id="fondo" onmousedown="mouseDown()" onmouseup="mouseUp()">
+¡Haga clic en el texto! La función mouseDown () se activa cuando se presiona el botón del mouse sobre este párrafo y establece el color del texto en azul. La función mouseUp () se activa cuando se suelta el botón del mouse y establece el color del texto en naranja.
+</h1>
+
+<script>
+function mouseDown() {
+    document.getElementById("fondo").style.color = "blue";
+}
+
+function mouseUp() {
+    document.getElementById("fondo").style.color = "orange";
+}
+</script>
+
+</body>
+</html>
